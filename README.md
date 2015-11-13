@@ -8,4 +8,4 @@ The picture will be scaled to fit the properties of the window. (The coordinates
 Start meassuring by clicking the left mouse button. Drag a line and release. That's it!
 The length will be saved automatically to YourPictureFolder/singleLines.csv
 
-Load the next picture with right click. It looks for a similar name with an increased index. If it fails to do so it will pop up aselection window.
+Load the next picture with right click. It looks for a similar name with an increased index. If it fails to do so it will pop up a selection window.
