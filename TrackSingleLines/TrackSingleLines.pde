@@ -51,8 +51,8 @@ float distance (float x1, float y1, float x2, float y2){
   return sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
 }
 void finishData(){//Daten speichern
-    output.println(distance(xs*lastX,lastY,xs*mouseX,ys*mouseY));//Print to file
-    outputl.println(distance(xs*lastX,lastY,xs*mouseX,ys*mouseY));
+    output.println(distance(xs*lastX,ys*lastY,xs*mouseX,ys*mouseY));//Print to file
+    outputl.println(distance(xs*lastX,ys*lastY,xs*mouseX,ys*mouseY));
     output.flush();//save file
     outputl.flush();
     startupLine = false;
